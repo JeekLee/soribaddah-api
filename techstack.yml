@@ -1,0 +1,221 @@
+repo_name: JeekLee/soribaddah-api
+report_id: 778e08ed9be57d3f5e981605cd0622a0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-27T04:55:29+00:00'
+requested_by: m1naworld
+provider: github
+branch: dev
+detected_tools_count: 16
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: mina
+  last_updated_on: 2022-12-16 05:02:07.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: mina
+  last_updated_on: 2022-12-16 05:02:07.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+  last_updated_by: mina
+  last_updated_on: 2022-12-20 06:44:06.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.8.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: mina
+  last_updated_on: 2022-12-22 06:19:22.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: mina
+  last_updated_on: 2022-12-22 06:19:22.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: mina
+  last_updated_on: 2022-12-17 12:36:40.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JeekLee/soribaddah-api/blob/dev/build.gradle
+  detection_source: build.gradle
+  last_updated_by: jaekyeong1
+  last_updated_on: 2022-12-22 13:26:41.000000000 Z
